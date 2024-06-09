@@ -13,6 +13,8 @@ dir route :
 |index.js
 |package.lock.json
 |package.json
+# NOTE: node_modules are not imported on git(dir route) as you can create them by using npm install in your terminal.
+
 (note that index.html and index.js are both in root dir and style and script of client side is included in index.html page using <style> tag and <script> tag)
 #4 create an index.js for server side code and refer index.js code as given in git in this project code section
 #5 now include <script> in index.html for client side code where you receive messages . Refer index.html code given in code section
